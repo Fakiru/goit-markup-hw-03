@@ -1,109 +1,209 @@
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>WebStudio</title>
-      <link rel="stylesheet" href="./css/reset.css" />
-      <link rel="stylesheet" href="./css/styles.css" />
-    </head>
-    <body>
-      <header>
-        <a class="logo-header" href="index.html"
-          >Web<span class="logo-header-second">Studio</span></a>
-        <nav>
-          <ul class="unstyled-list">
-            <li><a class="link-nav" href="/Studio.html">Studio</a></li>
-            <li><a class="link-nav" href="/Portofolio.html">Portofolio</a></li>
-            <li><a class="link-nav" href="/Contacts.html">Contacts</a></li>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!--Header Section-->
+
+    <header class="header-section">
+      <div class="header-section-container container">
+        <a class="header-section-logo logo-style" href="index.html"
+          >Web<span class="second-logo">Studio</span></a
+        >
+        <nav class="header-section-nav menu">
+          <ul class="header-section-nav_list unstyled-list">
+            <li class="header-section-nav_item">
+              <a class="nav_link active" href="index.html">Studio</a>
+            </li>
+            <li class="header-section-nav_item">
+              <a class="nav_link" href="portofolio.html">Portofolio</a>
+            </li>
+            <li class="header-section-nav_item">
+              <a class="nav_link" href="contacts.html">Contacts</a>
+            </li>
           </ul>
         </nav>
-            <ul class="top-list unstyled-list">
-                <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="link" href="tel:+123456789">+1 212-772-4150</a></li>
-            </ul>
-      </header>
-
-      <!--What we stand for-->
-
-      <main >
-        <section class="main-section">
-          <h2>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h2>
-          <button type="button">Request our service</button>
-        </section>
-        <section>
-            <ul class="unstyled-list">
-                    <li>
-                        <h5>ATTENTION TO DETAILS</h5>
-                        <p>We go into all the details and processes of your business to develop a customized solution.</p>
-                    </li>
-                    <li>
-                        <h5>PUNCTUALITY</h5>
-                        <p>With us, you can feel safe and secure. An important principle of the company: respect your time and deadlines.</p>
-                    </li>
-                    <li>
-                        <h5>PLANNING</h5>
-                        <p>You will be able to observe and participate in every phase of solution development and implementation.</p>
-                    </li>
-                    <li>
-                        <h5>MODERN TECHNOLOGIES</h5>
-                        <p>We use innovative tools to solve assigned tasks. It's time to simplify work processes.</p>
-                    </li>
-                </ul>
-        </section>
-
-        <!--What we do-->
-
-        <h2>What we do</h2>
-        <section class="unstyled-list">
-          <ul>
-          <li><img src="./images/image1.jpg" alt="registration" width="370" height="294" /></li>
-          <li> <img src="./images/image2.jpg" alt="user" width="370" height="294" /></li>
-          <li><img src="./images/image3.jpg" alt="working" width="370" height="294" /></li>
-          </ul>
-        </section>
-
-        <!-- Our Team-->
-
-        <section>
-          <h2>Our Team</h2>
-          <ul class="unstyled-list">
-            <li>
-              <img src="./images/Christopher Walker.jpg" alt="Christopher Walker" width="270" height="260"/>
-                 <h4>Christopher Walker</h4>
-                 <p>Product Designer</p>
+        <div class="top-contact">
+          <ul class="top-contact_list unstyled-list">
+            <li class="top-contact_item">
+              <a class="link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
             </li>
-
-            <li>
-              <img src="./images/Kylie Evans.jpg" alt="Kylie Evans" width="270" height="260"/>
-                 <h4>Kylie Evans</h4>  
-                 <p>Frontend Developer</p> 
-            </li>
-
-            <li>
-              <img src="./images/Ryan Harris.jpg" alt="Ryan Harris" width="270" height="260"/>
-                 <h4>Ryan Harris</h4>
-                 <p>Marketing</p>
-            </li>
-            <li>
-              <img src="./images/Tyler Moore.jpg" alt="Tyler Moore" width="270" height="260"/>
-                 <h4>Tyler Moore </h4> 
-                  <p>UI Designer</p>   
+            <li class="top-contact_item">
+              <a class="link" href="tel:+123456789">+1 212-772-4150</a>
             </li>
           </ul>
-        </section>
-      </main>
+        </div>
+      </div>
+    </header>
 
-      <!-- Web Studio Adress-->
+    <!--What we stand for-->
 
-        <footer class="footer-section"> <a class="logo-footer" href="index.html">Web<span class="logo-footer-second">Studio</span></a>
+    <main>
+      <section class="hero-section">
+        <ul class="hero-section_list unstyled-list">
+          <li class="hero-section_item">
+            <h2 class="bussiness-object">
+              EFFECTIVE SOLUTIONS FOR YOUR BUSINESS
+            </h2>
+          </li>
+          <li class="hero-section_item">
+            <button type="button" class="request-service-button">
+              Request our service
+            </button>
+          </li>
+        </ul>
+      </section>
+
+      <!--Our Values Section-->
+
+      <section class="our-values-section section">
+        <div class="container">
+          <ul class="our-values-section_list unstyled-list">
+            <li class="value_item">
+              <h5 class="value_title">ATTENTION TO DETAILS</h5>
+              <p class="value_description">
+                We go into all the details and processes of your business to
+                develop a customized solution.
+              </p>
+            </li>
+            <li class="value_item">
+              <h5 class="value_title">PUNCTUALITY</h5>
+              <p class="value_description">
+                With us, you can feel safe and secure. An important principle of
+                the company: respect your time and deadlines.
+              </p>
+            </li>
+            <li class="value_item">
+              <h5 class="value_title">PLANNING</h5>
+              <p class="value_description">
+                You will be able to observe and participate in every phase of
+                solution development and implementation.
+              </p>
+            </li>
+            <li class="value_item">
+              <h5 class="value_title">MODERN TECHNOLOGIES</h5>
+              <p class="value_description">
+                We use innovative tools to solve assigned tasks. It's time to
+                simplify work processes.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--What we do-->
+
+      <section class="what-we-do-section section">
+        <div class="container">
+          <h2 class="section__subtitle">Our Team</h2>
+          <ul class="our-team-section__list unstyled-list">
+            <li class="what-we-do-section_item">
+              <img
+                src="./images/image1.jpg"
+                alt="registration"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="what-we-do-section_item">
+              <img
+                src="./images/image2.jpg"
+                alt="user"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="what-we-do-section_item">
+              <img
+                src="./images/image3.jpg"
+                alt="working"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Our Team-->
+
+      <section class="our-team-section section">
+        <div class="container">
+          <h2 class="section_subtitle">Our Team</h2>
+          <ul class="our-team-section_list unstyled-list">
+            <li class="our-team-section_item employee_card">
+              <img
+                src="./images/Christopher Walker.jpg"
+                alt="Christopher Walker"
+                width="270"
+                height="260"
+              />
+              <div class="employee_details">
+                <h4 class="image-title">Christopher Walker</h4>
+                <p class="image-description">Product Designer</p>
+              </div>
+            </li>
+
+            <li class="our-team-section_item employee_card">
+              <img
+                src="./images/Kylie Evans.jpg"
+                alt="Kylie Evans"
+                width="270"
+                height="260"
+              />
+              <h4 class="image-title">Kylie Evans</h4>
+              <p class="image-description">Frontend Developer</p>
+            </li>
+
+            <li class="our-team-section_item employee_card">
+              <img
+                src="./images/Ryan Harris.jpg"
+                alt="Ryan Harris"
+                width="270"
+                height="260"
+              />
+              <h4 class="image-title">Ryan Harris</h4>
+              <p class="image-description">Marketing</p>
+            </li>
+
+            <li class="our-team-section_item employee_card">
+              <img
+                src="./images/Tyler Moore.jpg"
+                alt="Tyler Moore"
+                width="270"
+                height="260"
+              />
+              <h4 class="image-title">Tyler Moore</h4>
+              <p class="image-description">UI Designer</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+
+    <footer class="footer-section">
+      <div>
         <address>
-                    <ul class="unstyled-list">
-                      <li><p class="adress-line">Park Ave, NY 10065, USA</p></li>
-                      <li><p class="contact-method">info@devstudio.com</p></li>
-                      <li><p class="contact-method">+1 212-772-4150</p></li>
+          <ul class="footer-contact-info unstyled-list">
+            <a class="logo-footer" href="index.html"
+              >Web<span class="second-logo">Studio</span></a
+            >
+            <li><p class="adress-line">Park Ave, NY 10065, USA</p></li>
+            <li><p class="contact-method">info@devstudio.com</p></li>
+            <li><p class="contact-method">+1 212-772-4150</p></li>
+          </ul>
         </address>
-      </footer>
-    </body>
-  </html>
+      </div>
+    </footer>
+  </body>
+</html>
