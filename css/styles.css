@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 
 .container {
+  width: 1200px;
+}
+
+.container {
   margin: 0 auto;
   width: 100%;
 }
@@ -53,7 +57,7 @@ html {
   max-width: 100%;
 }
 
-.our-team-section__item {
+.our-team-section_item {
   background: #fff;
   text-align: center;
   display: flex;
@@ -64,6 +68,7 @@ html {
 
 .our-team-section {
   background: #f5f4fa;
+  padding: 94px;
 }
 
 .what-we-do-section_list:nth-child(1) {
@@ -91,6 +96,9 @@ html {
   color: #fff;
 }
 
+.what-we-do-section_list {
+  position: absolute;
+}
 .what-we-do-section_list,
 .our-team-section_list {
   display: flex;
@@ -127,17 +135,35 @@ html {
   padding-bottom: 10px;
 }
 
-.our-values-section__list {
+.our-values-section_item {
+  box-sizing: border-box;
+  border: 1px solid #00000000;
+}
+.our-values-section_list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  text-align: center;
+
   gap: 30px;
 }
 
 .our-values-section {
-  padding-bottom: 0px;
+  padding-bottom: 94px;
 }
 
+.request-service-button {
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #fff;
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  cursor: pointer;
+  margin-top: 30px;
+}
 .bussiness-object {
   font-weight: 900;
   width: 360px;
@@ -161,6 +187,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #2f303a;
 }
 
 .project-section-card_item .project_description .image-description {
@@ -190,6 +217,9 @@ html {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 94px;
 }
 
 .project-section-button_list {
@@ -198,6 +228,7 @@ html {
   gap: 10px;
   padding-bottom: 50px;
   flex-wrap: wrap;
+  padding-top: 94px;
 }
 
 .top-contact_item a:hover,
@@ -206,10 +237,17 @@ html {
   text-decoration: none;
 }
 
-.top-contact__list {
+.top-contact_list {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.top-contact_item a {
+  color: #757575;
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
 }
 
 .header-section-nav_item .nav_link:hover,
@@ -233,10 +271,14 @@ html {
   text-decoration: none;
 }
 
+.header-section-nav_item {
+  padding-right: 50px;
+}
+
 .header-section-nav_list {
   display: flex;
   margin-left: 90px;
-  gap: 50px;
+  gap: 20px;
 }
 
 .header-section-container .nav_list,
@@ -261,12 +303,14 @@ html {
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: none;
+  padding-left: 180px;
 }
 
 .header-section-container {
   display: flex;
   height: 80px;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 .footer-section_item .footer-contact-info {
@@ -276,6 +320,12 @@ html {
 .footer-section_item {
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+.footer-section_list {
+  justify-content: flex-start;
+  gap: 0px;
+  padding-left: 15px;
 }
 
 .footer-section_item .footer-contact-info .contact-method {
