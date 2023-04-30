@@ -135,15 +135,30 @@ html {
   padding-bottom: 10px;
 }
 
+.flexbox-container {
+  display: flex;
+  padding-left: 350px;
+}
+.flexbox-item {
+  width: 150px;
+  margin: 10px;
+  border: 2px solid #00000000;
+}
+
 .our-values-section_item {
   box-sizing: border-box;
   border: 1px solid #00000000;
 }
+
 .our-values-section_list {
   display: flex;
+  align-items: center;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
-
+  margin: 20px;
+  padding: 20px;
   gap: 30px;
 }
 
@@ -222,17 +237,94 @@ html {
   padding-bottom: 94px;
 }
 
+.button-style {
+  background: #f5f4fa;
+  font: #212121;
+}
+
 .project-section-button_list {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
   padding-bottom: 50px;
   flex-wrap: wrap;
   padding-top: 94px;
 }
 
+.project-section-button_item-all {
+  font-size: 16px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #21212f;
+  padding: 0;
+  width: 64px;
+  height: 38px;
+  background: #f5f4fa;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.project-section-button_item-web {
+  font-size: 16px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #21212f;
+  padding: 0;
+  width: 120px;
+  height: 38px;
+  background: #f5f4fa;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.project-section-button_item-apps {
+  font-size: 16px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #21212f;
+  padding: 0;
+  width: 120px;
+  height: 38px;
+  background: #f5f4fa;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.project-section-button_item-design {
+  font-size: 16px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #21212f;
+  padding: 0;
+  width: 120px;
+  height: 38px;
+  background: #f5f4fa;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.project-section-button_item-marketing {
+  font-size: 16px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #21212f;
+  padding: 0;
+  width: 120px;
+  height: 38px;
+  background: #f5f4fa;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
 .top-contact_item a:hover,
-.top-contact_item a:focus {
+.top-contact_item a:focus,
+.project-section-button_list a:hover,
+.project-section-button_list a:focus {
   color: #2196f3;
   text-decoration: none;
 }
