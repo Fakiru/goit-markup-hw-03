@@ -137,7 +137,7 @@ html {
 
 .flexbox-container {
   display: flex;
-  padding-left: 350px;
+  justify-content: center;
 }
 .flexbox-item {
   width: 150px;
@@ -164,6 +164,7 @@ html {
 
 .our-values-section {
   padding-bottom: 94px;
+  justify-content: center;
 }
 
 .request-service-button {
