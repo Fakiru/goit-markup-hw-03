@@ -233,8 +233,6 @@ html {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
-
-  flex-basis: calc(100% / 3);
   align-self: center;
   justify-content: center;
   gap: 30px;
@@ -244,9 +242,7 @@ html {
 .project-section-card {
   display: flex;
   flex-wrap: wrap;
-
-  width: 80%;
-
+  width: 100%;
   align-self: center;
   justify-content: center;
   gap: 30px;
